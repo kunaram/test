@@ -1,2 +1,6 @@
 This is my first file to test my repo.
-hello world!
+#Concept of alias
+1. to use alias -- ex: alias ll="ls |wc-l"
+2. to execute in a shell script use as exec `alias ll="ls |wc -l"`
+3. to add the alias into bashrc file(perminent) use echo "alias ll='ls | wc -l' >> /etc/bashrc" , after executing the script then  run source /etc/bashrc to make effect of the added new command.
+4. to remove alias use unalias <command> 
